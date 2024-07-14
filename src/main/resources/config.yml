@@ -1,0 +1,129 @@
+MISIONS:
+  '1':
+    TYPE: 'BLOCK_PLACE' # MOB_KILL, BLOCK_PLACE , BLOCK_BREAK , REGION_JOIN , REGION_LEFT, ITEM_CRAFT, ITEMS_CRAFT
+    GROUP: GENERAL # GENERAL, PLAYER
+    DISPLAY_NAME: '&9&lColoca bloques'
+    VALUE: 'DIRT'
+    AMOUNT: 5
+    STARTED:
+      SOUND: "ENTITY_WITHER_SPAWN"
+      MESSAGE: "Iniciado!"
+      COMMANDS:
+        - 'bc Iniciado!'
+    COMPLETED:
+      SOUND: "ENTITY_WITHER_SPAWN"
+      MESSAGE: "Completado!"
+      COMMANDS:
+        - 'give {player} diamond 1'
+    FINISHED:
+      SOUND: "ENTITY_WITHER_SPAWN"
+      MESSAGE: "Finalizado!"
+      COMMANDS:
+        - 'give {players} emerald 1'
+  '2':
+    TYPE: 'BLOCK_BREAK' # MOB_KILL, BLOCK_PLACE , BLOCK_BREAK , REGION_JOIN , REGION_LEFT, ITEM_CRAFT, ITEMS_CRAFT
+    GROUP: GENERAL # GENERAL, PLAYER
+    DISPLAY_NAME: '&9&lRompe bloques'
+    VALUE: 'DIRT'
+    AMOUNT: 10
+    STARTED:
+      SOUND: "ENTITY_WITHER_SPAWN"
+      MESSAGE: "Iniciado!"
+      COMMANDS:
+        - 'bc Iniciado!'
+    COMPLETED:
+      SOUND: "ENTITY_WITHER_SPAWN"
+      MESSAGE: "Completado!"
+      COMMANDS:
+        - 'give {player} diamond 1'
+    FINISHED:
+      SOUND: "ENTITY_WITHER_SPAWN"
+      MESSAGE: "Finalizado!"
+      COMMANDS:
+        - 'give {players} emerald 1'
+  '3':
+    TYPE: 'MOB_KILL' # MOB_KILL, BLOCK_PLACE , BLOCK_BREAK , REGION_JOIN , REGION_LEFT, ITEM_CRAFT, ITEMS_CRAFT
+    GROUP: GENERAL # GENERAL, PLAYER
+    DISPLAY_NAME: '&9&lMatador'
+    VALUE: 'ZOMBIE'
+    AMOUNT: 5
+    STARTED:
+      SOUND: "ENTITY_WITHER_SPAWN"
+      MESSAGE: "Iniciado!"
+      COMMANDS:
+        - 'bc Iniciado!'
+    COMPLETED:
+      SOUND: "ENTITY_WITHER_SPAWN"
+      MESSAGE: "Completado!"
+      COMMANDS:
+        - 'give {player} diamond 1'
+    FINISHED:
+      SOUND: "ENTITY_WITHER_SPAWN"
+      MESSAGE: "Finalizado!"
+      COMMANDS:
+        - 'give {players} emerald 1'
+  '4':
+    TYPE: 'REGION_JOIN' # MOB_KILL, BLOCK_PLACE , BLOCK_BREAK , REGION_JOIN , REGION_LEFT, ITEM_CRAFT, ITEMS_CRAFT
+    GROUP: GENERAL # GENERAL, PLAYER
+    DISPLAY_NAME: '&9&lEntrador de regiones'
+    VALUE: 'zonaCombate'
+    AMOUNT: 1
+    STARTED:
+      SOUND: "ENTITY_WITHER_SPAWN"
+      MESSAGE: "Iniciado!"
+      COMMANDS:
+        - 'bc Iniciado!'
+    COMPLETED:
+      SOUND: "ENTITY_WITHER_SPAWN"
+      MESSAGE: "Completado!"
+      COMMANDS:
+        - 'give {player} diamond 1'
+    FINISHED:
+      SOUND: "ENTITY_WITHER_SPAWN"
+      MESSAGE: "Finalizado!"
+      COMMANDS:
+        - 'give {players} emerald 1'
+  '5':
+    TYPE: 'REGION_LEFT' # MOB_KILL, BLOCK_PLACE , BLOCK_BREAK , REGION_JOIN , REGION_LEFT, ITEM_CRAFT, ITEMS_CRAFT
+    GROUP: GENERAL # GENERAL, PLAYER
+    DISPLAY_NAME: '&9&lSalidor de regiones'
+    VALUE: 'spawn'
+    AMOUNT: 1
+    STARTED:
+      SOUND: "ENTITY_WITHER_SPAWN"
+      MESSAGE: "Iniciado!"
+      COMMANDS:
+        - 'bc Iniciado!'
+    COMPLETED:
+      SOUND: "ENTITY_WITHER_SPAWN"
+      MESSAGE: "Completado!"
+      COMMANDS:
+        - 'give {player} diamond 1'
+    FINISHED:
+      SOUND: "ENTITY_WITHER_SPAWN"
+      MESSAGE: "Finalizado!"
+      COMMANDS:
+        - 'give {players} emerald 1'
+  '6':
+    TYPE: 'ITEMS_CRAFT' # MOB_KILL, BLOCK_PLACE , BLOCK_BREAK , REGION_JOIN , REGION_LEFT, ITEM_CRAFT, ITEMS_CRAFT
+    GROUP: GENERAL # GENERAL, PLAYER
+    DISPLAY_NAME: '&9&lCraftero'
+    VALUE: 'DIAMOND_CHESTPLATE;DIAMOND_BOOTS'
+    AMOUNT: 1
+    STARTED:
+      SOUND: "ENTITY_WITHER_SPAWN"
+      MESSAGE: "Iniciado!"
+      COMMANDS:
+        - 'bc Iniciado!'
+    COMPLETED:
+      SOUND: "ENTITY_WITHER_SPAWN"
+      MESSAGE: "Completado!"
+      COMMANDS:
+        - 'give {player} diamond 1'
+    FINISHED:
+      SOUND: "ENTITY_WITHER_SPAWN"
+      MESSAGE: "Finalizado!"
+      COMMANDS:
+        - 'give {players} emerald 1'
+
+MESSAGES:
